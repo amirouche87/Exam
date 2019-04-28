@@ -15,5 +15,20 @@ public class MakePyramid {
          */
 
 
+
+                for (int a = 0; a < 10; a++) {
+                    for (int b = 9; b >= a; b--) {
+
+
+                        System.out.print(" ");
+                    }
+                    for (int c = 0; c <= a; c++) {
+
+                        System.out.print("* ");
+                    }
+                    System.out.println(" ");
+
+                }
+
     }
 }
